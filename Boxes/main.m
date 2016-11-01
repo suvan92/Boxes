@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
                                           width:3
                                           depth:2];
         
-        NSLog(@"box2 fits into aBox %f times.", [aBox howManyTimes:box2]);
+        NSLog(@"box2 fits into aBox %.2f times.", [aBox howManyTimes:box2]);
     }
     return 0;
 }
